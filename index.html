@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+
+
+
+    <script src="./libraries/vivus.js"></script>
+    <script src="./libraries/siema.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!--Map API-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="./libraries/RoutingMachine/leaflet-routing-machine.css">
+    
+
+
+</head>
+<body>
+   <!--  ____________Barra de navegación________________ -->
+    <nav class="navbar">
+        <a href="" id="navLogo">JDL</a>
+        <ul class="navLinks">
+            <li><a href="#" class="homeLink navLink">Home</a></li>
+            <li><a href="#" class="dondeEstoyLink navLink">Donde estoy</a></li>
+            <li><a href="#" class="portfolioLink navLink">Portafolio</a></li>
+            <li><a href="#" class="solicitudLink navLink">Solicitud</a></li>
+            <li><a href="#" class="contactLink navLink">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    
+
+    <!--  ____________Contenedor AJAX________________ -->
+    <div id="container"></div>
+    
+    <!--  _____________Pie de página_______________ -->
+    <footer class="footer">
+        <div class="socialFooter">
+            <a href="#" id="footerLogo">JDL</a>
+        </div>
+        <div class="footerDiv1">
+            Todos los derechos reservados
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="./libraries/RoutingMachine/leaflet-routing-machine.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+

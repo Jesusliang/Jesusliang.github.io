@@ -1,0 +1,131 @@
+<div id="presupuestoForm-container">
+    <form action="" method="post" name="formPrecio" id="presupuestoForm" autocomplete="off">  
+        <h2>Datos</h2> 
+        <div class="form-datos">
+            <div>
+                <label for="name">Nombre </label>
+                <input type="text" name="name" id="name" class="datos">
+                <label for="lastName">Apellidos </label>
+                <input type="text" name="lastName" id="lastName" class="datos">
+            </div>
+            <div>
+                <label for="phone">Telefono </label>
+                <input type="tel" name="phone" id="phone" class="datos"  value="(+34)">
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email" class="datos">
+            </div>
+        </div>
+        <div class="form-web">
+            <h2>La Web</h2>
+            <div class="tipoweb-container">
+                <label for="type">Tipo de pagina Web </label>
+                <select name="type" id="typeOfWeb">
+                    <option value="" selected hidden>Tipo de Pagina Web</option>
+                    <option value="300">Portafolio 300$</option>
+                    <option value="400">Landing Page 400$</option>
+                    <option value="500">Blog 500$</option>
+                </select>
+            </div>
+            <div class="plazoMes-container">
+                <label for="plazoMeses">Plazo en meses </label>
+            <input type="number" name="plazoMeses" id="plazoMeses">
+            </div>
+            <div class="check-container">
+                <div class="check-title">
+                    <label for="sections">Marque las secciones deseadas </label>
+                </div>
+                <div class="check-checkbox">
+
+                    <label for="quienesSomos" class="checkboxContainer">
+                        <input type="checkbox" name="quienesSomos" id="quienesSomos" class="checkbox">
+                        <span class="checkmark"></span>
+                        Quienes Somos
+                    </label>
+
+                    <label for="dondeEstamos" class="checkboxContainer">
+                        <input type="checkbox" name="dondeEstamos" id="dondeEstamos" class="checkbox">
+                        <span class="checkmark"></span>
+                        Donde Estamos
+                    </label>
+                    
+                    <label for="galeriaFotos" class="checkboxContainer">
+                        <input type="checkbox" name="galeriaFotos" id="galeriaFotos" class="checkbox">
+                        <span class="checkmark"></span>
+                        Galería de Fotos
+                    </label>
+                    
+                    <label for="ecommerce" class="checkboxContainer">
+                        <input type="checkbox" name="ecommerce" id="ecommerce" class="checkbox">
+                        <span class="checkmark"></span>
+                        e-Commerce
+                    </label>
+                    
+                    <label for="gestionInterna" class="checkboxContainer">
+                        <input type="checkbox" name="gestionInterna" id="gestionInterna" class="checkbox">
+                        <span class="checkmark"></span>
+                        Gestión Interna
+                    </label>
+                    
+                    <label for="noticias" class="checkboxContainer">
+                        <input type="checkbox" name="noticias" id="noticias" class="checkbox">
+                        <span class="checkmark"></span>
+                        Noticias
+                    </label>
+                    
+                    <label for="facebook" class="checkboxContainer">
+                        <input type="checkbox" name="facebook" id="facebook" class="checkbox">
+                        <span class="checkmark"></span>
+                        Facebook
+                    </label>
+                    
+                    <label for="twitter" class="checkboxContainer">
+                        <input type="checkbox" name="twitter" id="twitter" class="checkbox">
+                        <span class="checkmark"></span>
+                        Twitter
+                    </label>
+                    
+
+                    <!-- <div class="checkboxDiv">
+                        <input type="checkbox" name="quienesSomos" id="quienesSomos" class="checkbox"> Quienes Somos
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="dondeEstamos" id="dondeEstamos" class="checkbox"> Donde Estamos
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="galeriaFotos" id="galeriaFotos" class="checkbox"> Galería de fotos
+                    </div>
+                    
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="eCommerce" id="eCommerce" class="checkbox"> eCommerce
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="gestionInterna" id="gestionInterna" class="checkbox"> Gestión interna
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="Noticias" id="Noticias" class="checkbox"> Noticias
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="facebook" id="facebook" class="checkbox"> Facebook
+                    </div>
+
+                    <div class="checkboxDiv">
+                        <input type="checkbox" name="twitter" id="twitter" class="checkbox"> Twitter
+                    </div> -->
+                </div>
+            </div>
+            <h2>Presupuesto Estimado</h2>
+            <p>Recuerde que este presupuesto es estimo, dependiendo de la web podría aumentar o disminuir</p>
+            <div id="precioMostrado">0€</div>
+        </div>
+        <div class="solicitudBtn-container">
+            <input type="submit" value="Enviar" class="inputBtn">
+            <input type="reset" value="Reset" class="inputBtn solicitudReset">
+        </div>
+        
+    </form>
+</div>

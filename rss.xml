@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version = 2.0>
+    <channel>
+        <title>
+            Mi canal de RSS
+        </title>
+        <link>index.html</link>
+        <description>Noticias</description>
+        <item>
+            <title>
+            Noticias de El Pais
+            </title>
+            <link>https://elpais.com</link>
+            <description>
+            Noticias actuales
+            </description>
+            <guid>El Pais</guid>
+        </item>
+    </channel>
+</rss>
